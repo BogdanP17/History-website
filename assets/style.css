@@ -12,35 +12,40 @@ body {
     flex-direction: column;
 }
 
+header {
+
+    position: fixed;
+    padding: 0 1rem;
+    display: flex;
+    box-shadow: 0 3px 3px red;
+    z-index: 99%;
+    width: 100%;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
 main {
     flex: 1 0 auto;
+    box-shadow: 0 3px 3px orange;
+    margin-top: 47px;
+    background-image: url(../images/free-photo-of-old-artisan-showing-vintage-and-antique-artifacts-in-wooden-drawers.jpeg);
 }
 
-header {
-    background-image: url("../images/whystudyhistory.jpg");
-    width: 100%;
-    height: 100px;
-    box-shadow: 0 4px 4px gold;
-    position: fixed;
-    align-items: baseline;
-
-}
-
-h1 {
-    text-align: center;
+#logo {
     font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
 }
 
-header a {
-    text-decoration: none;
-    color: white;
 
-}
+
 
 #menu {
-    font-size: 110%;
     list-style-type: none;
+    font-size: 110%;
+
+}
+
+#menu>li {
+    margin-bottom: 7px;
     font-family: 'Tangerine', serif;
 
 
@@ -48,47 +53,71 @@ header a {
 
 }
 
-menu>li {
-    margin-top: 3rem;
-    list-style-type: none;
-    justify-content: center;
-}
-
-#intro-text {
-    text-transform: uppercase;
-    text-size-adjust: 50px;
-    padding-top: 100px;
-    font-family: 'Lugarisimo', serif;
-
-}
-
-#nav {
-    display: none;
+nav {
     position: absolute;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
     display: none;
     top: 100%;
-    left: 0;
-    padding-bottom: 10px;
+    box-shadow: 0 3px 3px red;
+    background-color: white;
 
 }
 
-.fa-regular,
-fa-chart-bar {
-    color: white;
+#nav-toggle:checked~nav {
+    display: block;
+
+
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
 
 }
 
 #social-medias {
     text-align: center;
+    padding: 10px 0;
     display: flex;
     list-style-type: none;
-    padding: 15px 0;
     justify-content: space-evenly;
-    background-color: brown;
-
 }
 
 #social-medias i {
-    color: yellow;
-    padding: 10px;
+    font-size: 120%;
+    padding: 5%;
+    color: black;
+}
+
+#intro-text {
+    color: white;
+}
+
+@media screen and (min-width: 768px) {
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 2rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu>li {
+        padding-left: 2rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+
+    }
+
 }
