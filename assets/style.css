@@ -12,27 +12,38 @@ body {
     flex-direction: column;
 }
 
+
 header {
 
     position: fixed;
     padding: 0 1rem;
     display: flex;
-    box-shadow: 0 3px 3px red;
+    box-shadow: 0 4px 4px red;
     z-index: 99%;
     width: 100%;
     justify-content: space-between;
     align-items: baseline;
+    background-color: #ffffff;
 }
+
 
 main {
     flex: 1 0 auto;
     box-shadow: 0 3px 3px orange;
     margin-top: 47px;
-    background-image: url(../images/free-photo-of-old-artisan-showing-vintage-and-antique-artifacts-in-wooden-drawers.jpeg);
+
 }
 
 #logo {
     font-family: 'Oswald', sans-serif;
+
+}
+
+#main-photo {
+    width: 100%;
+    height: 300px;
+    background: url('../images/free-photo-of-old-artisan-showing-vintage-and-antique-artifacts-in-wooden-drawers.jpeg') no-repeat center center/cover;
+
 }
 
 
@@ -47,6 +58,7 @@ main {
 #menu>li {
     margin-bottom: 7px;
     font-family: 'Tangerine', serif;
+    font-size: x-large;
 
 
 
@@ -60,9 +72,13 @@ nav {
     padding: 0 1rem;
     display: none;
     top: 100%;
-    box-shadow: 0 3px 3px red;
     background-color: white;
 
+
+}
+
+nav a {
+    color: black;
 }
 
 #nav-toggle:checked~nav {
@@ -76,7 +92,7 @@ nav {
 }
 
 .nav-toggle-label {
-    font-size: 2rem;
+    font-size: 1rem;
 
 }
 
@@ -96,7 +112,18 @@ nav {
 
 #intro-text {
     color: white;
+    background-color: rgba(248, 226, 127, 0.72);
+    padding: 10px 2rem;
+
+
+
 }
+
+#places {
+    background-color: rgba(247, 164, 71, 0.72);
+}
+
+
 
 @media screen and (min-width: 768px) {
     nav {
@@ -105,6 +132,7 @@ nav {
         box-shadow: none;
         width: fit-content;
         padding-right: 2rem;
+        background-color: transparent;
     }
 
     #menu {
@@ -117,6 +145,24 @@ nav {
 
     .nav-toggle-label {
         display: none;
+
+    }
+
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    main {
+        margin-top: 79px;
+    }
+
+}
+
+@media screen and (min-width:992px) {
+    #menu a:hover {
+        border-bottom: 2px solid #000FFF;
 
     }
 
