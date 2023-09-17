@@ -81,6 +81,14 @@ nav a {
     color: black;
 }
 
+#places p {
+    font-family: 'Oswlad', sans-serif;
+}
+
+#places h3 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
 #nav-toggle:checked~nav {
     display: block;
 
@@ -113,7 +121,11 @@ nav a {
 #intro-text {
     color: white;
     background-color: rgba(248, 226, 127, 0.72);
-    padding: 10px 2rem;
+    width: 80%;
+    min-height: 100px;
+    padding-top: 20px;
+    position: absolute;
+    top: 200px;
 
 
 
@@ -121,6 +133,10 @@ nav a {
 
 #places {
     background-color: rgba(247, 164, 71, 0.72);
+}
+
+#stone-art {
+    flex: 1 0 auto;
 }
 
 
@@ -157,6 +173,13 @@ nav a {
     main {
         margin-top: 79px;
     }
+
+    #intro-text {
+        width: 300px;
+        right: 50px;
+        padding: 30px 0 0 20px;
+    }
+
 
 }
 
