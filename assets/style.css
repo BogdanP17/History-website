@@ -139,6 +139,15 @@ nav a {
     flex: 1 0 auto;
 }
 
+.art-photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
+.art-photos {
+    line-height: 0;
+}
+
 
 
 
