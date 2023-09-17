@@ -1,24 +1,94 @@
+@import url("https://fonts.googleapis.com/css?family=Tangerine");
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
 header {
-    background-image: url("../images/history-wordle.jpg");
-    image-orientation: ;
+    background-image: url("../images/whystudyhistory.jpg");
+    width: 100%;
+    height: 100px;
+    box-shadow: 0 4px 4px gold;
+    position: fixed;
+    align-items: baseline;
+
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
 }
 
 header a {
     text-decoration: none;
-    color: inherit;
+    color: white;
+
 }
 
 #menu {
-    font-size: 100%;
+    font-size: 110%;
     list-style-type: none;
+    font-family: 'Tangerine', serif;
+
+
+
+
 }
 
 menu>li {
-    margin-bottom: 3rem;
+    margin-top: 3rem;
+    list-style-type: none;
+    justify-content: center;
+}
+
+#intro-text {
+    text-transform: uppercase;
+    text-size-adjust: 50px;
+    padding-top: 100px;
+    font-family: 'Lugarisimo', serif;
+
+}
+
+#nav {
+    display: none;
+    position: absolute;
+    display: none;
+    top: 100%;
+    left: 0;
+    padding-bottom: 10px;
+
+}
+
+.fa-regular,
+fa-chart-bar {
+    color: white;
+
+}
+
+#social-medias {
+    text-align: center;
+    display: flex;
+    list-style-type: none;
+    padding: 15px 0;
+    justify-content: space-evenly;
+    background-color: brown;
+
+}
+
+#social-medias i {
+    color: yellow;
+    padding: 10px;
 }
