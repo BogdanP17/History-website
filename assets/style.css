@@ -148,6 +148,23 @@ nav a {
     line-height: 0;
 }
 
+.contact-text {
+    color: grey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contactus {
+    flex: 1 0 auto;
+    margin-left: 10px;
+}
+
+#full {
+    background-color: #663b02;
+}
+
+#contact>div {
+    color: white;
+}
 
 
 
