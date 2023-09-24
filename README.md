@@ -2,10 +2,10 @@
 
 The History Website is for all people who are intrested on learning about old artifact and places all over the globe.<br>
 Users who are pasiotated about history, on our website you can find all the details about old artifacts founded on our planet, places from the anciets, contact us if you found old atifact or you want to learn more about histoy, aftifacts and places.
-    
-    
+<img src="images/Screenshotalldevices.png">
 
-## Features:
+## Features
+
 <ol>
 <li>Navigation bar</li>
   
@@ -84,7 +84,3 @@ Users who are pasiotated about history, on our website you can find all the deta
   <li>The media images was taken from [Pexels](https://www.pexels.com/) and Google.</li>
   </ul>
   </ol>
-  
-
-  
-  
