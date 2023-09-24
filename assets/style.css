@@ -43,6 +43,22 @@ main {
     width: 100%;
     height: 300px;
     background: url('../images/free-photo-of-old-artisan-showing-vintage-and-antique-artifacts-in-wooden-drawers.jpeg') no-repeat center center/cover;
+    position: flex;
+    padding-bottom: 50px;
+
+}
+
+#intro-text {
+    color: white;
+    background-color: rgba(248, 226, 127, 0.72);
+    width: 80%;
+    min-height: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: absolute;
+    top: 150px;
+
+
 
 }
 
@@ -118,21 +134,14 @@ nav a {
     color: black;
 }
 
-#intro-text {
-    color: white;
-    background-color: rgba(248, 226, 127, 0.72);
-    width: 80%;
-    min-height: 100px;
-    padding-top: 20px;
-    position: absolute;
-    top: 200px;
 
-
-
-}
 
 #places {
-    background-color: rgba(247, 164, 71, 0.72);
+    background-color: rgba(119, 100, 78, 0.72);
+    display: flex;
+    flex-wrap: wrap;
+
+
 }
 
 #stone-art {
@@ -156,14 +165,30 @@ nav a {
 .contactus {
     flex: 1 0 auto;
     margin-left: 10px;
+    position: absolute;
+
+}
+
+
+
+#contact>div {
+    color: rgb(81, 255, 0);
+
+}
+
+
+#contact {
+    background-image: url("../images/pexels-engin-akyurt-2952871.jpg");
+    background-size: cover;
+    background-position: 50%;
+    padding: 15px 5% 0 5%;
+    flex-grow: 1;
+    height: fit-content;
+
 }
 
 #full {
-    background-color: #663b02;
-}
-
-#contact>div {
-    color: white;
+    background-color: rgba(248, 226, 127, 0.72);
 }
 
 
@@ -209,6 +234,11 @@ nav a {
         width: 300px;
         right: 50px;
         padding: 30px 0 0 20px;
+    }
+
+    #contact {
+        background-size: cover;
+        height: 300px;
     }
 
 
