@@ -30,75 +30,110 @@
           For any questions don't hesitate to contact us.
         </h2>
         <br />
-        <form id="contact" method="POST" action="https://formdump.codeinstitute.net">
+        <form
+          id="contact"
+          method="POST"
+          action="https://formdump.codeinstitute.net"
+        >
+          <div>
+            <label for="first-name">First Name</label>
+            <input
+              type="text"
+              name="first-name"
+              id="first-name"
+              class="text-input"
+              required
+            />
+            <br />
+            <br />
+            <label for="last-name">Last Name</label>
+            <input
+              type="text"
+              name="last-name"
+              id="last-name"
+              class="text-input"
+              required
+            />
+            <br />
+            <br />
+            <label for="email">Email Address</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="text-input"
+              required
+            />
+            <br />
+            <br />
+          </div>
+          <div id="radio">
             <div>
-                <label for="first-name">First Name</label>
-                <input type="text" name="first-name" id="first-name" class="text-input" required />
-                <br />
-                <br />
-                <label for="last-name">Last Name</label>
-                <input type="text" name="last-name" id="last-name" class="text-input" required />
-                <br />
-                <br />
-                <label for="email">Email Address</label>
-                <input type="email" name="email" id="email" class="text-input" required />
-                <br />
-                <br />
+              <label for="giza">Giza</label>
+              <input
+                type="radio"
+                name="preference"
+                id="giza"
+                value="Giza"
+                required
+              />
             </div>
-            <div id="radio">
-                <div>
-                    <label for="giza">Giza</label>
-                    <input type="radio" name="preference" id="giza" value="Giza" required />
-                </div>
-                <div>
-                    <label for="stonehenge">Stonehenge</label>
-                    <input type="radio" name="preference" id="stonehenge" value="stonehenge" required />
-                </div>
-                <div>
-                    <label for="petra">Petra</label>
-                    <input type="radio" name="preference" id="petra" value="petra" required />
-                </div>
-                <div>
-                    <label for="machu">Machu Picchu</label>
-                    <input type="radio" name="preference" id="machu" value="machu" required />
-                </div>
+            <div>
+              <label for="stonehenge">Stonehenge</label>
+              <input
+                type="radio"
+                name="preference"
+                id="stonehenge"
+                value="stonehenge"
+                required
+              />
             </div>
-            <button type="submit">Submit</button>
-            </form>
-        </section>
-        
+            <div>
+              <label for="petra">Petra</label>
+              <input
+                type="radio"
+                name="preference"
+                id="petra"
+                value="petra"
+                required
+              />
+            </div>
+            <div>
+              <label for="machu">Machu Picchu</label>
+              <input
+                type="radio"
+                name="preference"
+                id="machu"
+                value="machu"
+                required
+              />
+            </div>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
     </main>
     <footer>
       <ul id="social-medias">
         <li>
-          <a
-            href="https://www.facebook.com/"
-            target="_blank"
-            rel="noopener"
+          <a href="https://www.facebook.com/" target="_blank" rel="noopener"
             ><i class="fa-brands fa-facebook-f"></i
           ></a>
         </li>
         <li>
-          <a
-            href="https://www.instagram.com/"
-            target="_blank"
-            rel="noopener"
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener"
             ><i class="fa-brands fa-square-instagram"></i
           ></a>
         </li>
         <li>
-          <a
-            href="https://www.twitter.com/"
-            target="_blank"
-            rel="noopener"
+          <a href="https://www.twitter.com/" target="_blank" rel="noopener"
             ><i class="fa-brands fa-square-twitter"></i
           ></a>
         </li>
         <li>
-          <a href="https://www.youtube.com/"
-          target="_blank"
-          rel="noopener">
-          <i class="fa-brands fa-youtube"></i></a>
+          <a href="https://www.youtube.com/" target="_blank" rel="noopener">
+            <i class="fa-brands fa-youtube"></i
+          ></a>
         </li>
       </ul>
     </footer>

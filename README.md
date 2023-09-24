@@ -28,11 +28,12 @@ Users who are pasiotated about history, on our website you can find all the deta
   <li>Contact Us Section</li>
   <ul>
   <li>In the contact us section we have a from with reqired fild to be filled out if you want to know more about our artifacts and places</li>
+  <li>Also we have a nice picture on the contac us page with beautiful contrast.</li>
   </ul>
   <img src="images/Screenshotcontact.png">
   <li>Footer</li>
   <ul>
-  <li>At the bottom of the page we have four links to our social media page</li>
+  <li>At the bottom of the page we have four links to our social media page.</li>
   </ul>
   <img src="images/Screenshotfooter.png">
   
@@ -45,4 +46,10 @@ Users who are pasiotated about history, on our website you can find all the deta
   
   ## Bugs
   
+  ### Solved Bugs
+  <ul>
+  <li>Whem o tested the code a error pop out saying i have the forma and section withou coling tag</li>
+  <li>After checking the code again i have found the form closing tag was after sectionc closing tag</li>
+  </ul>
+  <img src="/images/Screenshotbug.png">
   
