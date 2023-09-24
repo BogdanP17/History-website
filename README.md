@@ -49,7 +49,7 @@ Users who are pasiotated about history, on our website you can find all the deta
   ### Solved Bugs
   <ul>
   <li>Whem o tested the code a error pop out saying i have the forma and section withou coling tag.</li>
-  <li>After checking the code again i have found the form closing tag was after sectionc closing tag.</li>
+  <li>After checking the code again i have found the form closing tag was after section closing tag.</li>
   <img src="/images/Screenshotbug.png">
   <li>Swaping they're position the bug was fixed.</li>
   </ul>
@@ -63,6 +63,7 @@ Users who are pasiotated about history, on our website you can find all the deta
   <li>Accessibility</li>
   <ul><li>By running the lighthouse in devtools the color and fonts are easy to read.</li></ul>
   </ul>
+  <img src="images/Screenshot lighthouse.png">
   <li>Unfixed Bugs</li>
   <ul><li>No unfixed bugs founded</li></ul>
   <li>Deployment</li>
@@ -71,8 +72,18 @@ Users who are pasiotated about history, on our website you can find all the deta
   <ul><li>On the GitHub Page head to Setting</li>
   <li>From the drop-down menu head to Mster Branch</li>
   <li>After master branch has been selected, the page will provide the link to website.</li></ul>
-   You can find the link here- [History Website] (https://github.com/BogdanP17/History-website)
+   You can find the link here:<br>
+    https://github.com/BogdanP17/History-website
   </ul>
+  <li>Content</li>
+  <ul>
+  <li>For the social media links to work we used the links from Love Ruuning Project.</li>
+  </ul>
+  <li>Media</li>
+  <ul>
+  <li>The media images was taken from [Pexels](https://www.pexels.com/) and Google.</li>
+  </ul>
+  </ol>
   
 
   
