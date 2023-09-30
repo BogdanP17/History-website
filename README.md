@@ -2,7 +2,7 @@
 
 The History Website is for all people who are intrested on learning about old artifact and places all over the globe.<br>
 Users who are pasiotated about history, on our website you can find all the details about old artifacts founded on our planet, places from the anciets, contact us if you found old atifact or you want to learn more about histoy, aftifacts and places.
-<img src="images/Screenshotalldevices.png">
+<img src="readmeimg/alldevices.png">
 
 ## Features
 
@@ -14,13 +14,13 @@ Users who are pasiotated about history, on our website you can find all the deta
   <li>On the top left we have the name of the webiste. HISTORY WEBSITE.
     The tree link on the top right tells how to navigate in the easy way throw the site</li>
     </ul>
- <img src="images/Screenshot header.png">
+ <img src="readmeimg/header.png">
  <li>Header</li>
   <ul>
   <li>The header shows the name of the website</li>
   <li>In the header we have a picture for history fans with artifacts</li>
   </ul>
-  <img src="images/free-photo-of-old-artisan-showing-vintage-and-antique-artifacts-in-wooden-drawers.jpeg">
+  <img src="assets/images/antique-artifacts.jpeg">
   <li>The Artifact Section</li>
   <ul>
   <li>On the artifact section we can find photos with artifacts from the five locations showed on the website</li>
@@ -28,9 +28,9 @@ Users who are pasiotated about history, on our website you can find all the deta
   <li>Contact Us Section</li>
   <ul>
   <li>In the contact us section we have a from with reqired fild to be filled out if you want to know more about our artifacts and places</li>
-  <li>Also we have a nice picture on the contac us page with beautiful contrast.</li>
+  <li>Also we have a nice picture on the contact us page with beautiful contrast.</li>
   </ul>
-  <img src="images/Screenshotcontact.png">
+  <img src="readmeimg/screenshotcontact.png">
   <li>Footer</li>
   <ul>
   <li>At the bottom of the page we have four links to our social media page.</li>
@@ -39,18 +39,18 @@ Users who are pasiotated about history, on our website you can find all the deta
   
   ## Testing
   <ul>
-  <li>I tested thath the wrbsite works on other browser: Chrome, Fire Fox, Microsoft Edge. </li>
-  <li>I confirm taht in the contact us section all the filld and submit button woks.</li>
-  <li>On the header navigation bar have a nice contrast to be readable and all 3 option works.</li>
+  <li>I tested that the website works on other browser: Chrome, Fire Fox, Microsoft Edge. </li>
+  <li>I confirm that in the contact us section all the filld and submit button woks.</li>
+  <li>On the header, navigation bar have a nice contrast to be readable and all 3 option works.</li>
   </ul>
   
   ## Bugs
   
   ### Solved Bugs
   <ul>
-  <li>Whem o tested the code a error pop out saying i have the forma and section withou coling tag.</li>
+  <li>Whem i tested the code a error pop out saying i have the forma and section withou closing tag.</li>
   <li>After checking the code again i have found the form closing tag was after section closing tag.</li>
-  <img src="/images/Screenshotbug.png">
+  <img src="readmeimg/bug.png">
   <li>Swaping they're position the bug was fixed.</li>
   </ul>
   
@@ -63,7 +63,7 @@ Users who are pasiotated about history, on our website you can find all the deta
   <li>Accessibility</li>
   <ul><li>By running the lighthouse in devtools the color and fonts are easy to read.</li></ul>
   </ul>
-  <img src="images/Screenshot lighthouse.png">
+  <img src="readmeimg/lighthouse.png">
   <li>Unfixed Bugs</li>
   <ul><li>No unfixed bugs founded</li></ul>
   <li>Deployment</li>
@@ -81,6 +81,6 @@ Users who are pasiotated about history, on our website you can find all the deta
   </ul>
   <li>Media</li>
   <ul>
-  <li>The media images was taken from [Pexels](https://www.pexels.com/) and Google.</li>
+  <li>The media images was taken from (https://www.pexels.com/) and Google.</li>
   </ul>
   </ol>

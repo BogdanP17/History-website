@@ -14,11 +14,10 @@ body {
 
 
 header {
-
     position: fixed;
     padding: 0 1rem;
     display: flex;
-    box-shadow: 0 4px 4px red;
+    box-shadow: 0 4px 4px #ff0000;
     width: 100%;
     justify-content: space-between;
     align-items: baseline;
@@ -28,55 +27,53 @@ header {
 
 main {
     flex: 1 0 auto;
-    box-shadow: 0 3px 3px orange;
+    box-shadow: 0 3px 3px #ffa500;
     margin-top: 47px;
-
 }
+
+#confiramtion {
+    background-color: #ffa500;
+}
+
+#request {
+    padding-left: 30px;
+    padding-top: 30px;
+    color: #ffffff;
+}
+
 
 #logo {
     font-family: 'Oswald', sans-serif;
-
 }
 
 #main-photo {
     width: 100%;
     height: 300px;
-    background: url('../images/free-photo-of-old-artisan-showing-vintage-and-antique-artifacts-in-wooden-drawers.jpeg') no-repeat center center/cover;
+    background: url('./images/antique-artifacts.jpeg') no-repeat center center/cover;
     padding-bottom: 50px;
-
 }
 
 #intro-text {
-    color: white;
-    background-color: rgba(248, 226, 127, 0.72);
+    color: #ffffff;
+    background-color: #f8e27f61;
     width: 80%;
     min-height: 100px;
     padding-top: 20px;
     padding-bottom: 20px;
     position: absolute;
     top: 150px;
-
-
-
 }
-
-
-
 
 #menu {
     list-style-type: none;
     font-size: 110%;
-
+    color: #000000;
 }
 
 #menu>li {
     margin-bottom: 7px;
     font-family: 'Tangerine', serif;
     font-size: x-large;
-
-
-
-
 }
 
 nav {
@@ -86,27 +83,25 @@ nav {
     padding: 0 1rem;
     display: none;
     top: 100%;
-    background-color: white;
-
-
+    background-color: #ffffff;
 }
 
 nav a {
-    color: black;
+    color: #000000;
 }
 
 #places p {
     font-family: 'Oswlad', sans-serif;
+    margin-left: 10px;
 }
 
 #places h3 {
     font-family: 'Times New Roman', Times, serif;
+    margin-left: 15px;
 }
 
 #nav-toggle:checked~nav {
     display: block;
-
-
 }
 
 #nav-toggle {
@@ -129,17 +124,34 @@ nav a {
 #social-medias i {
     font-size: 120%;
     padding: 5%;
-    color: black;
+    color: #000000;
 }
 
+#stonepic {
+    width: 250px;
+    margin-left: 5px;
+}
 
+#petrapic {
+    width: 250px;
+    margin-left: 5px;
+
+}
+
+#picchupic {
+    width: 250px;
+    margin-left: 5px;
+}
+
+#gizapic {
+    width: 250px;
+    margin-left: 5px;
+}
 
 #places {
-    background-color: rgba(119, 100, 78, 0.72);
+    background-color: #77644eb8;
     display: flex;
     flex-wrap: wrap;
-
-
 }
 
 #stone-art {
@@ -156,7 +168,7 @@ nav a {
 }
 
 .contact-text {
-    color: grey;
+    color: #808080;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: flex;
 }
@@ -168,16 +180,13 @@ nav a {
 
 }
 
-
-
 #contact>div {
-    color: rgb(81, 255, 0);
+    color: #51ff00;
 
 }
 
-
 #contact {
-    background-image: url("../images/pexels-engin-akyurt-2952871.jpg");
+    background-image: url("./images/contactpic.jpg");
     background-size: cover;
     background-position: 50%;
     padding: 15px 5% 0 5%;
@@ -187,12 +196,8 @@ nav a {
 }
 
 #full {
-    background-color: rgba(248, 226, 127, 0.72);
+    background-color: #f8e27fb8;
 }
-
-
-
-
 
 @media screen and (min-width: 768px) {
     nav {
@@ -204,7 +209,18 @@ nav a {
         background-color: transparent;
     }
 
+    #stonepic {
+        width: flex;
+        height: 300px;
+        margin-left: 5px;
+    }
 
+    #petrapic {
+        width: flex;
+        height: 300px;
+        margin-left: 5px;
+
+    }
 
     #menu {
         display: flex;
@@ -239,9 +255,6 @@ nav a {
         background-size: cover;
         height: 300px;
     }
-
-
-
 }
 
 @media screen and (min-width:992px) {
