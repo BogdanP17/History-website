@@ -159,8 +159,12 @@ nav a {
 }
 
 .art-photos img {
-    width: 100%;
+    width: 350px;
     line-height: 1em;
+}
+
+#art {
+    background-color: #5E3803;
 }
 
 .art-photos {
