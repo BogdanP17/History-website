@@ -35,12 +35,13 @@ Users who are pasiotated about history, on our website you can find all the deta
   <ul>
   <li>At the bottom of the page we have four links to our social media page.</li>
   </ul>
-  <img src="images/Screenshotfooter.png">
+  <br>
+  <img src="readmeimg/footer.png">
   
   ## Testing
   <ul>
   <li>I tested that the website works on other browser: Chrome, Fire Fox, Microsoft Edge. </li>
-  <li>I confirm that in the contact us section all the filld and submit button woks.</li>
+  <li>I confirm that in the contact us section all the filled and submit button woks.</li>
   <li>On the header, navigation bar have a nice contrast to be readable and all 3 option works.</li>
   </ul>
   
