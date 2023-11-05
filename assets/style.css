@@ -61,6 +61,7 @@ main {
     padding-top: 20px;
     padding-bottom: 20px;
     top: 150px;
+    position: absolute;
 }
 
 #menu {
@@ -123,7 +124,8 @@ nav a {
 #social-medias i {
     font-size: 120%;
     padding: 5%;
-    color: #000000;
+    color: #ffffff;
+    background-color: #000FFF;
 }
 
 #stonepic {
@@ -184,7 +186,7 @@ nav a {
 }
 
 #contact>div {
-    color: #ffffff;
+    color: red;
 
 }
 
