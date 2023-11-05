@@ -17,7 +17,7 @@ header {
     position: fixed;
     padding: 0 1rem;
     display: flex;
-    box-shadow: 0 4px 4px #ff0000;
+    box-shadow: 0 4px 4px green;
     width: 100%;
     justify-content: space-between;
     align-items: baseline;
@@ -60,7 +60,6 @@ main {
     min-height: 100px;
     padding-top: 20px;
     padding-bottom: 20px;
-    position: absolute;
     top: 150px;
 }
 
@@ -185,7 +184,7 @@ nav a {
 }
 
 #contact>div {
-    color: #51ff00;
+    color: #ffffff;
 
 }
 
@@ -196,6 +195,7 @@ nav a {
     padding: 15px 5% 0 5%;
     flex-grow: 1;
     height: fit-content;
+
 
 }
 
@@ -214,13 +214,13 @@ nav a {
     }
 
     #stonepic {
-        width: flex;
+
         height: 300px;
         margin-left: 5px;
     }
 
     #petrapic {
-        width: flex;
+
         height: 300px;
         margin-left: 5px;
 
