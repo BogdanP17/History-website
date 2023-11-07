@@ -4,8 +4,15 @@ The History Website is for all people who are intrested on learning about old ar
 Users who are pasiotated about history, on our website you can find all the details about old artifacts founded on our planet, places from the anciets, contact us if you found old atifact or you want to learn more about histoy, aftifacts and places.
 <img src="readmeimg/alldevices.png">
 
+## User Stories
+
+- As a casual user, I want a user-friendly search feature, so I can quickly find information about specific historical figures, events, or locations.
+- As a user, I want the website to be responsive and mobile-friendly, so I can access historical content on various devices, including smartphones and tablets.
+- As a social media user, I want to be able to share interesting historical articles and facts on my social platforms directly from the website, so I can engage with my friends and followers.
+
 ## Features
 
+ ### Existing features:
 <ol>
 <li>Navigation bar</li>
   
@@ -21,16 +28,17 @@ Users who are pasiotated about history, on our website you can find all the deta
   <li>In the header we have a picture for history fans with artifacts</li>
   </ul>
   <img src="assets/images/antique-artifacts.jpeg">
-  <li>The Artifact Section</li>
+  <li>The Artifact Page</li>
+  <img src="readmeimg/artifacts-page.png">
   <ul>
-  <li>On the artifact section we can find photos with artifacts from the five locations showed on the website</li>
+  <li>On the artifact section we can find photos with artifacts from the five locations showed on the website.</li>
   </ul>
   <li>Contact Us Section</li>
   <ul>
-  <li>In the contact us section we have a from with reqired fild to be filled out if you want to know more about our artifacts and places</li>
+  <li>In the contact us section we have a from with reqired fild to be filled out if you want to know more about our artifacts and places.</li>
   <li>Also we have a nice picture on the contact us page with beautiful contrast.</li>
   </ul>
-  <img src="readmeimg/screenshotcontact.png">
+  <img src="readmeimg/contactus.png">
   <li>Footer</li>
   <ul>
   <li>At the bottom of the page we have four links to our social media page.</li>
@@ -43,7 +51,9 @@ Users who are pasiotated about history, on our website you can find all the deta
   <li>I tested that the website works on other browser: Chrome, Fire Fox, Microsoft Edge. </li>
   <li>I confirm that in the contact us section all the filled and submit button woks.</li>
   <li>On the header, navigation bar have a nice contrast to be readable and all 3 option works.</li>
+  <li>I have tested the site in devtools and debugging with CodeAnywhere. </li>
   </ul>
+  
   
   ## Bugs
   
@@ -65,23 +75,30 @@ Users who are pasiotated about history, on our website you can find all the deta
   <ul><li>By running the lighthouse in devtools the color and fonts are easy to read.</li></ul>
   </ul>
   <img src="readmeimg/lighthouse.png">
-  <li>Unfixed Bugs</li>
+
+   ## Unfixed Bugs
   <ul><li>No unfixed bugs founded</li></ul>
-  <li>Deployment</li>
+
+  ## Deployment
   <ul>
   <li>We have deployed the site to GitHub</li>
   <ul><li>On the GitHub Page head to Setting</li>
   <li>From the drop-down menu head to Mster Branch</li>
   <li>After master branch has been selected, the page will provide the link to website.</li></ul>
-   You can find the link here:<br>
-    https://github.com/BogdanP17/History-website
+
+   [Click here for the link.](https://github.com/BogdanP17/History-website)
   </ul>
-  <li>Content</li>
+
+  ## Content
   <ul>
   <li>For the social media links to work we used the links from Love Ruuning Project.</li>
   </ul>
-  <li>Media</li>
-  <ul>
-  <li>The media images was taken from (https://www.pexels.com/) and Google.</li>
-  </ul>
-  </ol>
+
+
+## Credits
+ 
+- ### Images and Visual Content:
+  - The media images was taken from [Pexels](<https://www.pexels.com/>) and Google.
+
+- ### Text Content:
+   - The text content use was found on [Wikipeida](https://wikipeida.com/).
