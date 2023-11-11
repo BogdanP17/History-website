@@ -76,19 +76,40 @@ Users who are pasiotated about history, on our website you can find all the deta
   </ul>
   <img src="readmeimg/lighthouse.png">
 
+  ## Test Cases
+   - ### Home Page:
+        - On the home page i have tested that all 3 buttons from nav bar are working, if we press on one of them, automaticly we are redirected to the page selected.
+        - On the footer i have pressed on all the 4 link to social media to check if they are working.
+  <br>
+
+ - ### Artifact Page:
+      - On the artifact page i have test that all images are loading.
+  
+<br>
+
+-  ### Contact page:
+  
+    - On the contact page i have tested that the form user need to write his details all filds are required, the places buttons are working, the form cannot be submitted if all the fields are not completed corectly. If all fields are completed correctly the confirmation page load.
    ## Unfixed Bugs
   <ul><li>No unfixed bugs founded</li></ul>
 
   ## Deployment
-  <ul>
-  <li>We have deployed the site to GitHub</li>
-  <ul><li>On the GitHub Page head to Setting</li>
-  <li>From the drop-down menu head to Mster Branch</li>
-  <li>After master branch has been selected, the page will provide the link to website.</li></ul>
+   - ### GitHub:
+        - We have deployed the site to GitHub
+        - On the GitHub Page head to Setting
+        - From the drop-down menu head to Mster Branch
+        - After master branch has been selected, the page will provide the link to website.
+    [Click here for the link.](https://github.com/BogdanP17/History-website)
+  - ### CodeAnywhere:
+    - We have writeh the code for all the project, all 3 pages ( Index.html, artifacts.html, contactus.html)
+     - On codeanywhere we have deployed live the code by writing on the terminal " python3 -m https.server" so we can see how site looks like.
+  ## Technology:
+ - HTML for to write the code.
+ - Css to style the pages.
+ - GitHub to hoist the site.
 
-   [Click here for the link.](https://github.com/BogdanP17/History-website)
-  </ul>
-
+ ## Future Features:
+  - After the user insert they details on the contact us page we would like to send them a confirmation emial.  
   ## Content
   <ul>
   <li>For the social media links to work we used the links from Love Ruuning Project.</li>
